@@ -1,0 +1,82 @@
+body{
+    background-color: #D2B48C;
+  justify-content: space-evenly;
+  align-items: center;
+ position: relative;
+  height: 600px;
+}
+/*cup icon */
+#icon{
+  font-size: 380px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 60px;
+  right: 400px;
+}
+#clear{
+  clear: both;
+}
+#head{
+    color:rgb(252, 252, 248);
+    position: absolute;
+    top: 10px;
+    right: 370px;
+    font-size: 2.4rem;
+    text-align: center;
+    
+
+}
+
+.options {
+    margin:  250px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+  }
+  .options button {
+      width: 120px;
+      height: 40px;
+      margin-top: 5px;
+    user-select: none;
+    display: block;
+    background: rgba(243, 245, 255, 0.6);
+    outline: none;
+    font-size: 1rem;
+    border: 2px solid #994d00;
+    box-shadow: none;
+    color: #363636;
+    box-sizing: border-box;
+
+  }
+  .options button:hover {
+    cursor: pointer;
+    border-width: 3px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* divs */
+  .lat,.mocha,.espresso,.frappuccino,
+  .americano,.cappuccino,.cortado,
+  .affogato,.macchiato,.turkish{
+   
+    font-size: 1.5rem;
+    width: 680px;
+    height: 275px;
+    display: hidden;
+    text-align: center;
+    background-color: rgb(243, 239, 217);
+    border: chocolate .5px solid;
+    border-radius: 10px;
+    position: absolute;
+    right:210px;
+    top: 20px;
+  
+  }
+  .close{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  }
+  
+ .quote{ line-height: 2.2rem;}
+ 
